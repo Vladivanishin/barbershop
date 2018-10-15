@@ -14,6 +14,11 @@ body {
 	background-repeat: no-repeat;
 	background-position: top center;
 }
+.body-shop {
+	background-color: #f7f4f1;
+	color: #000000;
+	background-image: url("./img/pattern-light.jpg");
+}
 a {
 	text-decoration: none;
 }
@@ -160,4 +165,125 @@ a {
 .login-password-info:hover,
 .login-password-info:focus {
 	color: #663d15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.page-title {
+	font-size: 30px;
+	line-height: 42px;
+	font-weight: bold;
+}
+.container {
+	background-image: url("../img/pattern-light.jpg");
+}
+.filter-option {
+	list-style: none;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.filter-input-checkbox {
+color: #663d15;
+}
+.breadcrumbs li {
+	list-style: none;
+	font-size: 14px;
+	line-height: 20px;
+}
+.filter legend {
+ font-size: 24px;
+ line-height: 30px;
+ font-weight: bold;
+}
+.breadcrumbs a {
+	color: #000000;
+}
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+	text-decoration: underline;
+}
+.breadcrumbs-current {
+	color: #dad7d5;
+}
+.filter fieldset {
+	border: none;
+}
+.catalog-list {
+	list-style: none;
+}
+.catalog-item {
+	background-color: #ffffff;
+  left: 116px;
+  top: 882px;
+  width: 249px;
+  height: 315px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.catalog-item:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);	
+}
+.catalog-item a {
+	color: #000000;
+
+}
+.catalog-item h3 {
+	font-size: 14px;
+	line-height: 18px;
+}
+}
+.catalog-item span {
+	color: #000000;
+}
+.catalog-item b {
+	background-color: #e5e5e5;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+}
+.catalog-item .button {
+	color: #ffffff;
+	line-height: 18px;
+}
+.catalog-category {
+	text-transform: none;
+}
+.pagination-list {
+	list-style: none;
+}
+.pagination-item a {
+	color: #ffffff;
+	background-color: #000000;
+}
+.pagination-list a:hover,
+.pagination-list a:focus,
+.pagination-list a:active {
+	background-color: #663d15;
+}
+.pagination-item-current a{
+	color: #000000;
+	background-color: #ffffff;
+}
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+	color: #000000;
+	background-color: #ffffff;
+}
+.filter-input:hover + label,
+.filter-input:focus + label {
+	color: #663d15;
+}
+.filter-input:disabled + label {
+	color: #000000;
+	opacity: 0.5;
 }
