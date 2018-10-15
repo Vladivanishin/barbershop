@@ -287,3 +287,50 @@ color: #663d15;
 	color: #000000;
 	opacity: 0.5;
 }
+
+
+
+
+
+
+
+
+
+
+
+.body-cart {
+	background-image: none;
+	color: #000000;
+}
+h1 {
+	font-size: 30px;
+	line-height: 42px;
+}
+.product-photo-preview {
+	list-style: none;
+}
+.product-photo-preview li {
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+}
+.product-photo-full {
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+}
+.product-avaialability {
+	text-align: left;
+}
+.product-article {
+	text-align: right;
+	color: #aeaeae;
+}
+.product-price b {
+	background-color: #e5e5e5;
+	text-align: center;
+	line-height: 20px;
+}
+.product-info li {
+	list-style: none;
+}
+.product-info h3 {
+	font-size: 24px;
+	line-height: 30px;
+}
