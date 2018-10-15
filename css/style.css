@@ -10,12 +10,26 @@ body {
 	color: #ffffff;
 
 	background-color: #000000;
-	background-image: url("img/bg.jpg");
+	background-image: url("../img/bg.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 }
 a {
 	text-decoration: none;
+}
+.button {
+	font: inherit;
+ 	text-align: center;
+ 	background-color: #000000;
+ 	color: #ffffff;
+ 	text-transform: uppercase;
+ 	border: none;
+ 	vertical-align: middle;
+}
+.button:hover,
+.button:focus,
+.button:active {
+	background-color: #663d15;
 }
 .main-navigation {
 	color:#ffffff;
@@ -48,4 +62,102 @@ a {
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 42px;
+}
+.index-colums {
+	color: #000000;
+
+	background-image: url("../img/pattern-light.jpg");
+	background-repeat: repeat;
+	background-position: 0 0;
+	background-color: #f9f6f3;
+}
+.index-colums h2 {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 42px;
+}
+.news-list {
+	list-style: none;
+}
+.news-list time {
+	text-transform: none;
+}
+.gallery-content {
+	border: 7px solid #ffffff;
+	background-color: #cccccc;
+}
+.appointment-item input {
+	font: inherit;
+	background-color: transparent;
+	border: 2px solid #000000;
+}
+.appointment-item input:focus {
+	border-color: #663d15;
+}
+.main-footer {
+	color: #ffffff;
+	background-color: #1f1f1f;
+	background-image: url("../img/bg-footer.jpg");
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+.footer-contact a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.footer-contact a:hover,
+.footer-contact a:focus {
+	text-decoration: none;
+}
+.footer-social a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.footer-social li {
+	text-align: center;
+	list-style: none;
+}
+.footer-social {
+	text-align: center;
+}
+.footer-social .button:hover,
+.footer-social .button:focus {
+	color: #000000;
+	background-color: #ffffff;
+
+}
+.modal {
+	color: #000000;
+
+	background-image: url("../img/pattern-light.jpg");
+	background-repeat: repeat;
+	background-position: 0 0;
+	background-color: #f9f6f3;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+	border: 2px solid #000000;
+	font: inherit;
+	background-color: transparent;
+	text-transform: uppercase;
+}
+.login-form input:focus,
+.login-form input:hover {
+	border-color: #663d15;
+}
+.restore {
+	color: #000000;
+	text-decoration: underline;
+}
+.restore:hover {
+	text-decoration: none;
+}
+.modal h2 {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 42px;
+}
+.login-password-info:hover,
+.login-password-info:focus {
+	color: #663d15;
 }
