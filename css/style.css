@@ -18,6 +18,8 @@ body {
 	background-color: #f7f4f1;
 	color: #000000;
 	background-image: url("./img/pattern-light.jpg");
+	background-repeat: repeat;
+	background-position: 0 0;
 }
 a {
 	text-decoration: none;
@@ -185,6 +187,9 @@ a {
 }
 .container {
 	background-image: url("../img/pattern-light.jpg");
+	background-repeat: repeat;
+	background-position: 0 0;
+	background-color: rgb(248, 244, 241);
 }
 .filter-option {
 	list-style: none;
@@ -193,7 +198,7 @@ a {
 	font-weight: bold;
 }
 .filter-input-checkbox {
-color: #663d15;
+	color: #663d15;
 }
 .breadcrumbs li {
 	list-style: none;
@@ -201,9 +206,9 @@ color: #663d15;
 	line-height: 20px;
 }
 .filter legend {
- font-size: 24px;
- line-height: 30px;
- font-weight: bold;
+ 	font-size: 24px;
+ 	line-height: 30px;
+ 	font-weight: bold;
 }
 .breadcrumbs a {
 	color: #000000;
@@ -239,7 +244,6 @@ color: #663d15;
 .catalog-item h3 {
 	font-size: 14px;
 	line-height: 18px;
-}
 }
 .catalog-item span {
 	color: #000000;
@@ -334,3 +338,15 @@ h1 {
 	font-size: 24px;
 	line-height: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*СЕТОЧНЫЕ СТИЛИ задание после лекции 6*/
