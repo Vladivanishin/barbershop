@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
   	<meta charset="utf-8">
   	<title>Барбершор "Бородинский"</title>
@@ -7,13 +8,17 @@
     <link rel="stylesheet" href="css/normalize.css">
   	<link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+
+  <body class="inner-page">
+
   	<header class="main-header">
   		<nav class="main-navigation">
         <a class="main-header-logo">
         <img src="img/index-logo.svg" alt="логотип барбершопа Бородинский" height="153" width="368">
       </a>
-  			<ul class="site-navigation">
+  			<div class="main-navigation-wrapper">
+          <div class="top-menu">
+          <ul class="site-navigation">
   				<li><a href="info.html">Информация</a></li>
   				<li><a href="news.html">Новости</a></li>
   				<li><a href ="prise-list.html">Прайс-лист</a></li>
@@ -25,15 +30,21 @@
           <a class="login-link" href="login.html">Вход
             </a></li>
         </ul>
+      </div>
+      </div>
   		</nav>
-      <main class="container">
+    </header>
+
+      <main>
         <h1 class="visually-hidden">Барбершор "Бородинский"</h1>
         <section class="features">
           <h2 class="visually-hidden">Преимущества</h2>
-          <ul class="feature-list">
+          
+          <div class="feature-div">
+            <ul class="feature-list">
             <li class="feature-item">
               <h3>Быстро</h3>
-              <p>Мы делаем свою работу быстро! Два часа пролетят НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+              <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
             </li>
              <li class="feature-item">
               <h3>Круто</h3>
@@ -44,6 +55,7 @@
               <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
             </li>
           </ul>
+        </div>
         </section>
 
         <div class="index-colums">
@@ -56,7 +68,7 @@
             </li>
             <li class="news-item">
               <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «Бритва» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
-              <time datetime="2016-18-01">18 января</time>
+              <time datetime="2016-01-18">18 января</time>
             </li>
           </ul>
           <a class="button" href="news.html">Все новости</a>
@@ -116,7 +128,6 @@
         </section>
       </div>
       </main>
-  	</header>
   	<footer class="main-footer">
       <p class="footer-contact">
         БАРБЕРШОП «БОРОДИНСКИЙ»<br>
@@ -131,7 +142,7 @@
           <li><a class="social-button" href="https://www.facebook.com/vlad.ivanishin">Facebook</a></li>
           <li><a class="social-button" href="https://www.instagram.com/justivlad/">Instagram</a></li>
       </ul>
-      <p>
+      <p class="footer-copyright">
         <b>Разработанно:</b>
         <a class="button" href="htmlacademy.ru">HTML Academy</a>
       </p>
@@ -152,7 +163,7 @@
         </p>
           <p class="login-password-info">
             <label for="login-checkbox">
-              <input id="login-password-info" type="checkbox" name="remember" class="visually-hidden">
+              <input id="login-checkbox" type="checkbox" name="remember" class="visually-hidden">
               <span class="checkbox-indicator"></span>
               Запомните меня
           </label>
@@ -170,5 +181,6 @@
       </p>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
 </html>
