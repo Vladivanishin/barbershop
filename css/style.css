@@ -363,17 +363,17 @@ h1 {
 .main-header-logo {
 	width: 368px;
 	height: 153px;
-	order: 2;
+	order: 2; 
 }
 .site-navigation {
-	min-height: 70px;
+	min-height: 72px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	width: 620px;
 }
 .user-navigation {
-	min-height: 70px;
+	min-height: 72px;
 	margin: 0;
 	padding: 0;
 	list-style: none;	
@@ -382,9 +382,8 @@ h1 {
 .main-navigation-wrapper {
 	width: 100%;
 	margin-bottom: 60px;
-	min-height: 70px;
+	min-height: 72px;
 	background-color: #000000;
-	outline: 1px solid red;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -393,7 +392,7 @@ h1 {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
-	outline: 3px solid yellow;
+	
 }
 .main-navigation-wrapper .top-menu {
 	display: flex;
@@ -405,18 +404,26 @@ h1 {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	align-items: center;
 }
 .feature-item {
 	width: 300px;
+	outline: 2px solid green;
+	padding: 0 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 .features {
 	margin-bottom: 80px;
 }
 .index-colums {
+	width: 780px;
 	padding: 50px 80px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	margin-bottom: 35px;
+	outline: 2px solid purple;
 }
 .news {
 width: 380px;
@@ -454,5 +461,18 @@ margin-left: auto;
 }
 .feature-div {
 	width: 940px;
-	position: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	outline: 2px solid red;
+	margin: auto;
+}
+.konten {
+	outline: 2px solid yellow;
+	width: 940px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
 }
