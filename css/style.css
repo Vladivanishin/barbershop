@@ -24,6 +24,26 @@ body {
 a {
 	text-decoration: none;
 }
+img {
+max-width: 100%;
+height: auto;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+position: absolute;
+
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding:0;
+white-space: nowrap;
+
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
 .button {
 	font: inherit;
  	text-align: center;
@@ -371,13 +391,48 @@ h1 {
 	padding: 0;
 	list-style: none;
 	width: 620px;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.site-navigation a,
+.user-navigation a{
+display: block;
+color: #ffffff;
+vertical-align: middle;
+padding: 25px 20px;
 }
 .user-navigation {
+	display: flex;
+	flex-wrap: wrap;
 	min-height: 72px;
 	margin: 0;
 	padding: 0;
 	list-style: none;	
-	width: 140px;
+	max-width: 140px;
+}
+.user-navigation .login-link {
+	padding-left: 50px;
+	position: relative;
+}
+.login-link::before {
+content: "";
+
+position: absolute;
+top: 28px;
+left: 24px;
+width: 16px;
+height: 18px;
+background-image: url(../img/login.svg);
+background-repeat: no-repeat;
+background-position: 0 0;
+
+opacity: 0.3;
+}
+.login-link:hover::before,
+.login-link:focus::before,
+.login-link:active::before {
+	opacity: 1;
 }
 .main-navigation-wrapper {
 	width: 100%;
@@ -388,11 +443,10 @@ h1 {
 	flex-direction: row;
 	align-items: center;
 }
-.top-nemu {
+.top-menu {
 	width: 940px;
 	margin: 0 auto;
-	padding: 0 10px;
-	
+	padding: 0 10px;	
 }
 .main-navigation-wrapper .top-menu {
 	display: flex;
@@ -404,15 +458,35 @@ h1 {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	align-items: center;
 }
 .feature-item {
 	width: 300px;
-	outline: 2px solid green;
-	padding: 0 10px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
+	text-align: center;
+
+		border: 2px solid green;
+}
+.feature-item h3 {
+	margin: 0;
+	margin-bottom: 60px;
+	font-size: 30px;
+	line-height: 42px;
+
+	position: relative;
+}
+.feature-item h3::after {
+	content: "";
+
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #ffffff;
+	left: 50%;
+	bottom: -30px;
+	margin-left: -10px;
+	transform: rotate(45deg);
+}
+.feature-item p {
+	margin: 0 10px;
 }
 .features {
 	margin-bottom: 80px;
@@ -455,9 +529,6 @@ width: 145px;
 margin: 0;
 width: 150px;
 margin-left: auto;
-}
-.visually-hidden {
-	display: none;
 }
 .feature-div {
 	width: 940px;
