@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ru">
 
   <head>
@@ -76,11 +76,13 @@
 
         <section class="gallery">
           <h2>Фотогалерея</h2>
+          <div class="gallery-container">
           <figure class="gallery-content">
             <a href=""><img src="img/studio.jpg" alt="фотографии галлереи" height="164" width="286"></a>
           </figure>
-          <button class="button gallery-button gallery-button-back" type="button">Назад</button>
+          <button class="button gallery-button gallery-button-back" type="button" disabled>Назад</button>
           <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+        </div>
         </section>
       </div>
 
@@ -128,7 +130,9 @@
         </section>
       </div>
       </main>
+
   	<footer class="main-footer">
+      <div class="konten">
       <p class="footer-contact">
         БАРБЕРШОП «БОРОДИНСКИЙ»<br>
         АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
@@ -138,15 +142,16 @@
       <div class="footer-social">
         <b>Давайте дружить!</b>
         <ul>
-          <li><a class="social-button" href="https://vk.com/prostovladi">VKontakte</a></li>
-          <li><a class="social-button" href="https://www.facebook.com/vlad.ivanishin">Facebook</a></li>
-          <li><a class="social-button" href="https://www.instagram.com/justivlad/">Instagram</a></li>
+          <li><a class="social-button" href="https://vk.com/prostovladi"><span class="visually-hidden">VKontakte</span></a></li>
+          <li><a class="social-button" href="https://www.facebook.com/vlad.ivanishin"><span class="visually-hidden">Facebook</span></a></li>
+          <li><a class="social-button" href="https://www.instagram.com/justivlad/"><span class="visually-hidden">Instagram</span></a></li>
       </ul>
       <p class="footer-copyright">
         <b>Разработанно:</b>
         <a class="button" href="htmlacademy.ru">HTML Academy</a>
       </p>
       </div>
+    </div>
     </footer>
 
     <section class="modal madal-login">
