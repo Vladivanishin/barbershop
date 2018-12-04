@@ -477,6 +477,29 @@ h1 {
 
 
 
+.main-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: -285px;
+	padding: 60px 130px;
+	background-color: #f8f5f2;
+	background-image: url(../img/pattern-light.jpg);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+.proizvoditeli-box {
+	width: 180px;
+	border: 2px solid red;
+	justify-content: flex-start;
+}
+.karts-box {
+	width: 705px;
+	border: 2px solid red;
+	justify-content: flex-end;
+}
+
+
 
 
 
