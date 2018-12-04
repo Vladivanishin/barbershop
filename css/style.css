@@ -608,15 +608,11 @@ width: 300px;
   background-position: 0 0;
   background-repeat: repeat;
 }
-.main-footer .konten {
-	display: flex;
-	flex-direction: column;
-}
 .footer-contact {
 margin: 0;
 width: 320px;
 margin-right: 70px;
-border: 2px solid red;
+align-items: flex-start;
 }
 .footer-contact a {
 	color: #ffffff;
@@ -630,8 +626,9 @@ border: 2px solid red;
 width: 145px;
 
 align-self: center;
-vertical-align: middle;
-border: 2px solid red;
+align-items: flex-start;
+vertical-align: top;
+
 }
 .footer-social ul {
 	display: flex;
@@ -646,11 +643,14 @@ border: 2px solid red;
 	margin-bottom: 15px;
 }
 .footer-copyright {
-margin: 0;
+
 width: 150px;
-margin-left: auto;
+
+margin-left: 390px;
+margin-top: -85px;
 justify-content: flex-end;
-border: 2px solid red;
+align-items: flex-start;
+
 }
 .footer-copyright b {
 	display: block;
@@ -667,6 +667,7 @@ border: 2px solid red;
 	color: #ffffff;
 	width: 43px;
 	height: 43px;
+	background-color: #000000;
 }
 .social-button:focus,
 .social-button:hover {
@@ -690,5 +691,9 @@ border: 2px solid red;
 	justify-content: center;
 	flex-direction: column;
 	margin: 0 auto;
-	border: 2px solid yellow;
+}
+.footer-box {
+	width: 940px;
+	display: flex;
+	margin: 0 auto;
 }
